@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+  font-optical-sizing: auto;
+}
+
+/* ######### Typography ######### */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--link-primary);
+}
+
+q,
+blockquote {
+  padding: 0 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-left: solid 0.25rem #e2e2e2;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+select {
+  cursor: pointer;
+  /* accent-color: var(--background-secondary); */
+}
+
+::selection {
+  color: var(--text-alternate);
+  background-color: var(--background-alternate);
+}

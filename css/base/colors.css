@@ -1,0 +1,41 @@
+/* ALl the global colors are maintained here.
+  Change it based on your project requirements.
+
+*/
+
+:root {
+  /* Base color tokens - Project colors */
+  /* Brand Colors */
+  --base-color-brand--gray-50: #f9fafb;
+  --base-color-brand--gray-100: #e6e7eb;
+  --base-color-brand--gray-400: #9ca3af;
+  --base-color-brand--gray-500: #6b7280;
+  --base-color-brand--gray-700: #374151;
+  --base-color-brand--gray-800: #1f2937;
+  --base-color-brand--gray-950: #030712;
+  --base-color-brand--pink-100: #fbe2e3;
+  --base-color-brand--purple-100: #dbd7fb;
+  --base-color-brand--white: #fff;
+
+  /* Semantic tokens - References the Base color tokens above*/
+  /* Background Colors */
+  --background-primary: var(--base-color-brand--gray-50);
+  --background-alternate: var(--base-color-brand--gray-950);
+  --background-tertiary: var(--base-color-brand--white);
+  --background-quaternary: var(--base-color-brand--gray-100);
+  --background-quinery: var(--base-color-brand--gray-800);
+
+  /* Text Colors */
+  --text-primary: var(--base-color-brand--gray-700);
+  --text-alternate: var(--base-color-brand--gray-100);
+  --text-secondary: var(--base-color-brand--gray-400);
+  --text-tertiary: var(--base-color-brand--gray-500);
+
+  /* Border colors */
+  --border-primary: var(--base-color-brand--gray-100);
+  --border-secondary: var(--base-color-brand--white);
+  --border-tertiary: var(--base-color-brand--gray-400);
+
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  --inset-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14) inset;
+}

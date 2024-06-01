@@ -1,0 +1,18 @@
+/* Initialization for many web browsers */
+@import url(init/normalize.css);
+@import url(init/global.css);
+
+/* Base classes containing utility, colors and variables etc */
+@import url(base/colors.css);
+@import url(base/reset.css);
+@import url(base/base.css);
+@import url(base/animations.css);
+@import url(base/utilities.css);
+
+/* Components for all pages */
+
+/* Pages styles */
+@import url(pages/home.css);
+
+/* Responsive styles */
+@import url(responsive/responsive.css);
