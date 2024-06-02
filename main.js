@@ -1,5 +1,7 @@
 "use strict";
 
+import Lenis from "lenis";
+
 const hamburgerEl = document.querySelector(".hamburger");
 hamburgerEl.addEventListener("click", function (e) {
   this.classList.toggle("is-clicked");
@@ -70,3 +72,17 @@ document.addEventListener("DOMContentLoaded", function (e) {
   const headerHeroEl = document.querySelector(".header_hero-content");
   headerHeroEl.classList.add("is-animated");
 });
+
+// Lenis scroll
+const lenis = new Lenis();
+
+lenis.on("scroll", (e) => {
+  console.log(e);
+});
+
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
