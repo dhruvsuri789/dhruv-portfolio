@@ -396,7 +396,14 @@
                   >
                   or through this form.
                 </p>
-                <form name="contact" method="POST" class="form" netlify>
+                <form
+                  name="contact"
+                  method="POST"
+                  class="form"
+                  netlify-honeypot="bot-field"
+                  data-netlify-recaptcha="true"
+                  netlify
+                >
                   <input
                     type="text"
                     placeholder="Your email"
@@ -412,6 +419,8 @@
                     required
                     class="form_message"
                   ></textarea>
+                  <input name="bot-field" class="form_bot-field" />
+                  <div data-netlify-recaptcha="true"></div>
                   <button class="button" type="submit">
                     Submit<ion-icon name="paper-plane"></ion-icon>
                   </button>
