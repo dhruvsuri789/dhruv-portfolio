@@ -65,3 +65,8 @@ const handleSubmit = (event) => {
 };
 
 document.querySelector("form").addEventListener("submit", handleSubmit);
+
+document.addEventListener("DOMContentLoaded", function (e) {
+  const headerHeroEl = document.querySelector(".header_hero-content");
+  headerHeroEl.classList.add("is-animated");
+});
