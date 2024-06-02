@@ -155,7 +155,10 @@
 
 .header_avatar-img {
   width: 7rem;
+  height: 7rem;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
   border: 0.25rem solid var(--background-tertiary);
   box-shadow: var(--box-shadow);
 }
