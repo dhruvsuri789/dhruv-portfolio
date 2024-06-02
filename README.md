@@ -6,6 +6,6 @@ My portfolio website to apply for a job as a web developer using any web builder
 
 - Need to add more skills to the website such as
   - GSAP, Framer Motion, Bootstrap
-  - Web buuilder Bubble.io
+  - Web builder Bubble.io
   - Typescript
   - ReactJS and NextJS
