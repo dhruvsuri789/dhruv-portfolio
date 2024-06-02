@@ -65,7 +65,7 @@
             <div class="container-small">
               <div class="header_hero-content">
                 <img
-                  src="/assets/img-dhruv.jpg"
+                  src="/images/img-dhruv.jpg"
                   alt="Dhruv's avatar"
                   class="header_avatar-img"
                 />
@@ -174,7 +174,7 @@
                         </ul>
                       </div>
                       <img
-                        src="/assets/img-popsicles.png"
+                        src="/images/img-popsicles.png"
                         alt="Popsicles website image"
                         class="projects_card-img projects_card-img--1"
                       />
@@ -194,7 +194,7 @@
                         </ul>
                       </div>
                       <img
-                        src="/assets/img-sawyer.jpg"
+                        src="/images/img-sawyer.jpg"
                         alt="Sawyer Art website"
                         class="projects_card-img projects_card-img--5"
                       />
@@ -217,7 +217,7 @@
                         </ul>
                       </div>
                       <img
-                        src="/assets/img-stellar.jpg"
+                        src="/images/img-stellar.jpg"
                         alt="Apple CMS website"
                         class="projects_card-img projects_card-img--6"
                       />
@@ -237,7 +237,7 @@
                         </ul>
                       </div>
                       <img
-                        src="/assets/img-apple.png"
+                        src="/images/img-apple.png"
                         alt="Apple CMS website"
                         class="projects_card-img projects_card-img--3"
                       />
@@ -256,7 +256,7 @@
                         </ul>
                       </div>
                       <img
-                        src="/assets/img-sencha.jpg"
+                        src="/images/img-sencha.jpg"
                         alt="Sencha Tea website image"
                         class="projects_card-img projects_card-img--2"
                       />
@@ -276,7 +276,7 @@
                         </ul>
                       </div>
                       <img
-                        src="/assets/img-ciya.jpg"
+                        src="/images/img-ciya.jpg"
                         alt="Apple CMS website"
                         class="projects_card-img projects_card-img--4"
                       />
@@ -392,13 +392,14 @@
                   >
                   or through this form.
                 </p>
-                <form action="#" name="form-portfolio" class="form">
+                <form name="contact" method="POST" class="form" netlify>
                   <input
                     type="text"
                     placeholder="Your email"
                     required
                     id="#email"
                     class="form_email"
+                    name="email"
                   />
                   <textarea
                     name="message"
@@ -406,8 +407,9 @@
                     placeholder="Your message"
                     required
                     class="form_message"
+                    name="message"
                   ></textarea>
-                  <button class="button">
+                  <button class="button" type="submit">
                     Submit<ion-icon name="paper-plane"></ion-icon>
                   </button>
                 </form>
