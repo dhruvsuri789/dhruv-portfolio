@@ -234,17 +234,17 @@
   gap: 0.5rem;
 
   list-style: none;
+}
 
-  .skills_item {
-    padding: 0.75rem 1.5rem;
-    background-color: var(--background-tertiary);
-    /* border: 1px solid var(--border-primary); */
-    border-radius: 999rem;
+.skills_item {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--background-tertiary);
+  /* border: 1px solid var(--border-primary); */
+  border-radius: 999rem;
 
-    border: 2px solid var(--border-secondary);
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px,
-      inset rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px;
-  }
+  border: 2px solid var(--border-secondary);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px,
+    inset rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px;
 }
 
 .section_contact {
@@ -448,17 +448,30 @@
     list-style: none;
     font-size: 0.85rem;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     width: fit-content;
     gap: 0.5rem;
 
-    .projects_card-tag {
+    /* .projects_card-tag {
       padding: 0.25rem 0.75rem;
       color: #374151;
       background-color: #fff;
       border-radius: 999rem;
       border: 1px solid #e6e7eb;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    } */
+
+    .projects_card-tag {
+      padding: 0.25rem 0.75rem;
+      color: #374151;
+      background-color: #fff;
+      /* background-color: var(--background-tertiary); */
+      /* border: 1px solid var(--border-primary); */
+      border-radius: 999rem;
+
+      border: 2px solid var(--border-secondary);
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px,
+        inset rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px;
     }
   }
 

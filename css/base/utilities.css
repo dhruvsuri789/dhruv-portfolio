@@ -124,6 +124,7 @@ section.section-style-dark {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: 600;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
 }
 
 /* Text Size */
