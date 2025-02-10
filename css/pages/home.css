@@ -564,6 +564,11 @@
     color: #fff;
     background-color: #e18c3f;
   }
+
+  &.projects_card--9 {
+    color: #fff;
+    background-color: #e25d5d;
+  }
 }
 
 /* FHD and below */
