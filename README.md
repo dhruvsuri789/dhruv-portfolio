@@ -1,11 +1,7 @@
-# Dhruv Portfolio Website
+# My portfolio website
 
-My portfolio website to apply for a job as a web developer using any web builder platfolm such as Webflpw, Sqaurespace, Framer, Wix, Shopify etc.
+https://dhruvsuri-portfolio.netlify.app/
 
-## TODO
+## Made in HTML, CSS, and JavaScript
 
-- Need to add more skills to the website such as
-  - GSAP, Framer Motion, Bootstrap
-  - Web builder Bubble.io
-  - Typescript
-  - ReactJS and NextJS
+## Hosted on Netlify
