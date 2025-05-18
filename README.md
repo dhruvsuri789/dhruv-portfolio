@@ -2,6 +2,7 @@
 
 https://dhruvsuri-portfolio.netlify.app/
 
-## Made in HTML, CSS, and JavaScript
+## About the website
 
-## Hosted on Netlify
+- Made in HTML, CSS, and JavaScript
+- Hosted on Netlify
